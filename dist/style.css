@@ -1,0 +1,8 @@
+
+.media-body{
+    display: none;
+  }
+
+#personajes {
+    cursor: pointer;
+}
