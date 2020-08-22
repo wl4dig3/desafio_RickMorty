@@ -1,4 +1,4 @@
-alert()
+// Importacion del axios 
 import axios from "axios";
 // Crando clase constructora
 class Personajes{

@@ -1,8 +1,23 @@
-
+body {
+    background-image: url(rickmorty.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .media-body{
     display: none;
   }
 
-#personajes {
+#personajes  {
     cursor: pointer;
+    transition: all .5s ease-in-out
+}
+#personajes:hover{
+    transform: scaleY(1.1);
+}
+
+
+h1{
+    color:lightgreen;
+    
 }
